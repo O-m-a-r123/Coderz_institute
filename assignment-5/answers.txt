@@ -1,4 +1,2 @@
 coderz institute link: 
-https://github.com/O-m-a-r123/Coderz_institute/assignment-4
-قيمة href="../index1.html" لللعودة للصفحة الرئيسية 
-يبدأ المسار ب pages لانه صفحة المواعيد وصفحة الاستفسارات داخل مجلد اسمه pages
+https://github.com/O-m-a-r123/Coderz_institute/assignment-5
