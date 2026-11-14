@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coderz معهد</title>
+</head>
+<body>
+    <!-- شريط التنقل (Nav) المشترك بين الصفحات -->
+    <nav>
+        <ul>
+            <li><a href="index.html">الرئيسية</a></li>
+            <li><a href="pages/schedule.html">المواعيد</a></li>
+            <li><a href="pages/enquiry.html">الاستفسار</a></li>
+        </ul>
+    </nav>
+
+    <!-- رابط في أعلى الصفحة يأخذ الزائر إلى قسم "كورسات هذا الشهر" باستخدام id -->
+    <p><a href="#courses-section">انتقل إلى كورسات هذا الشهر</a></p>
+
+    <hr>
+
+    <!-- القسم المطلوب: كورسات هذا الشهر -->
+    <section id="courses-section">
+        <h2>كورسات هذا الشهر</h2>
+        
+        <!-- فقرة (Paragraph) تعرّف الزائر بما سيتعلمه -->
+        <p>مرحباً بك في منصتنا التعليمية. في هذا القسم نستعرض لك أحدث وأهم الدورات التدريبية المتاحة لهذا الشهر والتي ستساعدك على تطوير مهاراتك بشكل احترافي.</p>
+        
+        <!-- عرض اسمي الكورسين في قائمة (List) -->
+        <ul>
+            <li>HTML Content</li>
+            <li>HTML Forms</li>
+        </ul>
+
+        <!-- صورة غلاف داخل figure مع alt و figcaption -->
+        <figure>
+            <img src="images/full-stack.jpg" alt="صورة غلاف توضح محتوى الكورسات البرمجية وكيفية الاستفادة منها" width="400" height="300">
+            <figcaption>هذه الصورة توضح الدورات البرمجية المتاحة وكيف تساهم في بناء وتطوير مهارات تصميم المواقع الإلكترونية.</figcaption>
+        </figure>
+    </section>
+</body>
+</html>
