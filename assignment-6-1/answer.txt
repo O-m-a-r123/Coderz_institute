@@ -1,0 +1,2 @@
+لربط ملف ال css  من ملف index : href="style.css"
+لربط ملف css من ملف ال courses الموجود داخل مجلد ages : href="../style.css"
