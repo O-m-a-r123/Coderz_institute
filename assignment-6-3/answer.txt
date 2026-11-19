@@ -1,0 +1,9 @@
+فحصت h2 في Computed (مع تحميل styles.css، جذر 16px، وخط البطاقة 20px): كان 30px بـ 1.5em لأنه أخذ من خط البطاقة، وبعد ما غيّرته إلى 1.5rem صار 24px لأنه صار يعتمد على الجذر.
+
+جرّبت أغيّر --brand في :root إلى crimson فصار h1 وh2 بنفس اللون، وبعدين رجّعته #12546c.
+
+الخطأ 1: شفت <h1 style="color: tomato;">coderz Institute</h1> مخلي لون العنوان ما يمشي مع --brand لأن inline style أقوى من CSS الخارجي، فشلت الـ style وزبط اللون.
+
+الخطأ 2: كان مكتوب course-card بدون نقطة فما أخذ خلفية #eef5ff، و.course-card p كانت تعطي خلفية #fff4d9 لكل الفقرات؛ عدلتها إلى .course-card واستخدمت .course-card > p فصارت خلفية البطاقة كاملة والصفراء على الفقرة الأولى بس.
+
+الخطأ 3: كان مكتوب .action :hover بمسافة وoutline: 0 solid orange فما كان يشتغل hover وTab صح؛ عدلتها إلى .action:hover وoutline: 3px solid orange وجربتهم بالماوس وTab واشتغلوا.
