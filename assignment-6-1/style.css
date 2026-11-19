@@ -1,0 +1,17 @@
+:root{
+    --brand: red;
+}
+h1{ color: var(--brand);}
+/* .status{
+    
+    article[data-status="open"]{
+    background-color: rgb(2, 221, 2);}
+    article[data-status="full"]{
+    background-color: gray;}} */
+
+article[data-status="open"] .status{
+    background-color: lightgreen;
+}
+article[data-status="full"] .status{
+    background-color: gray;
+}
